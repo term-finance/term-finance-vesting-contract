@@ -1,6 +1,12 @@
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.5.16;
-
 import "./SafeMath.sol";
+
+/**
+ * @title TreasuryVester
+ * @dev This contract is adapted from Uniswap's TreasuryVester contract.
+ * @dev Original contract: https://github.com/Uniswap/governance/blob/master/contracts/TreasuryVester.sol
+ */
 
 contract TreasuryVester {
     using SafeMath for uint;
